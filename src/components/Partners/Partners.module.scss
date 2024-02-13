@@ -1,0 +1,72 @@
+.partners {
+  display: flex;
+  padding: 50px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  align-self: stretch;
+}
+
+.partnersHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 290px;
+
+  @media (min-width: 1200px) {
+    width: auto;
+  }
+}
+
+.partnersTitle {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px; /* 119.231% */
+  letter-spacing: 0.2px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.partnersInfo {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.brandsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  width: 300px;
+
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @media (min-width: 1200px) {
+    width: auto;
+  }
+}
+
+.listItem {
+
+}

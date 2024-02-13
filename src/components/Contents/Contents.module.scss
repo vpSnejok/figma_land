@@ -1,0 +1,101 @@
+.contents {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 0.2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  padding: 0 140px;
+  margin-bottom: 44px;
+}
+
+.cardList {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.listItem {
+  width: 348px;
+  padding: 40px 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 57px;
+
+  border-radius: 10px;
+  border: 1px solid #D3D3D3;
+  background: #ffffff;
+
+  box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+}
+
+.listItemSecond{
+  width: 348px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  border-radius: 10px;
+  border: 1px solid #D3D3D3;
+  background: #ffffff;
+  box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
+}
+
+.contentsHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.listTitle {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.listInfo {
+  color: #5C5C5C;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.btnBlue{
+  background-color: #4452FE;
+  border: 1px solid #4452FE;
+
+  &:hover{
+    background-color: #1f2df1;
+  }
+}
